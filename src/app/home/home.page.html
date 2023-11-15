@@ -14,6 +14,7 @@
         <ion-col *ngIf="filtro=='' || rapper.singer(filtro)" size-xl="2" size-lg="3" size-md="4" size-sm="6" size-xs="12">
           <ion-card>
             <ion-card-content>
+              <ion-avatar><img [src]="rapper.image"></ion-avatar>
               <p>{{ rapper.singer }}</p>
               <p>{{ rapper.song }}</p>
               <p>{{ rapper.genre }}</p>

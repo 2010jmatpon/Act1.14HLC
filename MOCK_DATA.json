@@ -1,4 +1,4 @@
-[{"id":1,"song":"Too Many Nights","singer":"Don Tolliver","genre":"hip hop","duration":19,"release_date":"10/30/2006"},
+[{"id":1,"song":"Too Many Nights","singer":"Don Toliver","genre":"hip hop","duration":19,"release_date":"10/30/2006", "image":"https://images.squarespace-cdn.com/content/v1/5ff4a97457429516243f37fd/1612389358497-9DIGETWKHDBTA5M2ZES0/dontoliver3.jpg"},
 {"id":2,"song":"Sicko Mode","singer":"Travis Scott","genre":"rap","duration":10,"release_date":"7/28/2011"},
 {"id":3,"song":"Empire State of Mind","singer":"Jay-Z","genre":"rap","duration":28,"release_date":"11/12/2007"},
 {"id":4,"song":"Mask Off","singer":"Future","genre":"rap","duration":35,"release_date":"4/28/1994"},
