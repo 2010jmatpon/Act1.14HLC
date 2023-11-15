@@ -25,3 +25,13 @@
 #container a {
   text-decoration: none;
 }
+
+@media only screen and (orientation: portrait){
+  ion-card{
+    --background:rgba(111, 0, 255, 0.753) ;
+  }
+  ion-card p{
+    display: none;
+    visibility: hidden;
+  }
+}
