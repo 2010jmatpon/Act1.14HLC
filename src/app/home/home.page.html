@@ -7,11 +7,11 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-input [(ngModel)]="filtro" placeholder="Introduce el nombre que desee Buscar"></ion-input>
+  <ion-input [(ngModel)]="filtro" placeholder="Introduce el nombre del RAPERO al que desee buscar"></ion-input>
   <ion-grid>
     <ion-row>
       <ng-container *ngFor="let rapper of rappers | async">
-        <ion-col *ngIf="filtro=='' || rapper.singer(filtro)" size-xl="2" size-lg="3" size-md="4" size-sm="6" size-xs="12">
+        <ion-col *ngIf="filtro=='' || rapper.singer.startsWith(filtro)" size-xl="2" size-lg="3" size-md="4" size-sm="6" size-xs="12">
           <ion-card>
             <ion-card-content>
               <ion-avatar><img [src]="rapper.image"></ion-avatar>
